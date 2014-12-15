@@ -7,8 +7,9 @@ bindkey "^[u" emacs-backward-word
 bindkey "^[d" backward-delete-char
 bindkey "^[f" delete-char-or-list
 bindkey "^[e" backward-kill-word
-bindkey "^[r" kill-word
-bindkey "^[g" kill-line
+bindkey "^[[3;5~" kill-word
+bindkey "⇐" kill-line
+bindkey "∈" backward-kill-line
 bindkey "^[h" beginning-of-line
 bindkey "^[H" end-of-line
 bindkey "^[z" undo
